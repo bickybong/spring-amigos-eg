@@ -1,4 +1,4 @@
-package com.example.SpringInitilized;
+package com.example.SpringInitilized.helloWorld;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
