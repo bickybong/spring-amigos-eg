@@ -1,8 +1,23 @@
 package com.amigoscode;
 
+import jakarta.persistence.*;
+
 import java.util.Objects;
 
+//entity to connect to db
+@Entity
 public class Customer {
+    @Id
+//    sequence used to generate unique id
+    @SequenceGenerator(
+            name = "customer_id_sequence",
+            sequenceName = "customer_id_sequence",
+            allocationSize = 1
+    )
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "customer_id_sequence"
+    )
     private Integer id;
     private String name;
     private String email;
