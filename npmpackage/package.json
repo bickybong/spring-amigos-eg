@@ -1,0 +1,15 @@
+{
+  "name": "packagenpms",
+  "version": "1.0.0",
+  "description": "package to try",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "codeartifact"
+  ],
+  "author": "zephan",
+  "license": "ISC"
+}
